@@ -1,0 +1,244 @@
+/* Page styles */
+html,
+body {
+    margin: 0;
+    font-family: "Inter", sans-serif;
+}
+
+body {
+    display: flex;
+    flex-direction: column;
+    min-height: 100vh;
+}
+
+.header {
+    padding: 30px 123px;
+    display: flex;
+    justify-content: space-between;
+}
+
+.header img {
+    margin: 6px 0;
+}
+
+.content {
+    flex: 1;
+    display: flex;
+}
+
+/* Button styles */
+.back-button {
+    background-color: #F2F2F2;
+    color: #000000;
+    border: none;
+    height: 32px;
+    padding: 6px 16px;
+    text-align: center;
+    text-decoration: none;
+    display: none;
+    font-size: 14px;
+    line-height: 20px;
+    border-radius: 2px;
+    cursor: pointer;
+}
+
+.back-button:hover {
+    background-color: #000000;
+    color: #ffffff;
+}
+
+/* Demo container styles */
+.unl-demo-shop {
+    padding: 0 123px;
+    display: flex;
+}
+
+.unl-demo-shop img {
+    width: 506px;
+    height: 500px;
+}
+
+.unl-form {
+    width: 100%;
+    display: none;
+}
+
+/* Item styles */
+.unl-item-info {
+    padding: 48px 25px;
+    min-width: 438px;
+}
+
+.unl-item-info__title {
+    font-weight: bold;
+    font-size: 24px;
+    line-height: 28px;
+    color: #000000;
+    margin-bottom: 12px;
+}
+
+.unl-item-info__description {
+    font-size: 16px;
+    line-height: 24px;
+    color: #808080;
+    max-width: 422px;
+    margin-bottom: 32px;
+}
+
+.unl-item-info__price {
+    font-weight: 600;
+    font-size: 24px;
+    line-height: 24px;
+    color: #000000;
+    margin-bottom: 60px;
+}
+
+.unl-item-info a {
+    text-decoration: none;
+}
+
+/* Button styles */
+.unl-button {
+    border: none;
+    height: 44px;
+    padding: 6px 16px;
+    text-align: center;
+    text-decoration: none;
+    display: inline-block;
+    font-size: 14px;
+    line-height: 20px;
+    border-radius: 4px;
+    cursor: pointer;
+}
+
+.button-primary {
+    font-size: 17px;
+    line-height: 24px;
+    background-color: #C9F73A;
+    color: #000000;
+}
+
+.button-primary:hover {
+    background-color: #000000;
+    color: #ffffff;
+}
+
+.button-tertiary {
+    font-size: 15px;
+    line-height: 20px;
+    border: 1px solid #E5E5E5;
+    box-sizing: border-box;
+    background-color: #ffffff;
+    color: #000000;
+}
+
+.button-tertiary:hover {
+    background-color: #000000;
+    color: #ffffff;
+}
+
+.pay-button {
+    margin-left: 20px;
+    width: 239px;
+}
+
+.result-status-wrapper {
+    display: none;
+    width: 100%;
+    justify-content: center;
+    align-items: center;
+}
+
+.result-status-info {
+    width: 328px;
+}
+
+.result-status-info__title {
+    font-weight: bold;
+    font-size: 28px;
+    line-height: 24px;
+    margin-bottom: 34px;
+    width: 100%;
+}
+
+.result-status-info__success {
+    background: #F1FDCE;
+    border-radius: 2px;
+    width: 328px;
+    height: 44px;
+    justify-content: center;
+    align-items: center;
+    display: none;
+}
+
+.result-status-info__success svg {
+    margin-right: 8px;
+}
+
+.result-status-info__declined {
+    background: #FFECEB;
+    border-radius: 2px;
+    width: 328px;
+    height: 44px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    display: none;
+}
+
+.result-status-info__declined svg {
+    margin-right: 8px;
+}
+
+.result-status-info__description {
+    font-weight: 600;
+    font-size: 16px;
+    line-height: 20px;
+    color: #000000;
+    margin: 20px 0;
+}
+
+.result-back-button {
+    background-color: #F2F2F2;
+    color: #000000;
+    border: none;
+    height: 44px;
+    padding: 10px 20px;
+    text-align: center;
+    text-decoration: none;
+    font-size: 17px;
+    line-height: 24px;
+    border-radius: 2px;
+    cursor: pointer;
+}
+
+.result-back-button:hover {
+  background-color: #000000;
+  color: #ffffff;
+}
+
+.payment-details {
+    margin-bottom: 28px;
+}
+
+.payment-detail {
+    display: flex;
+    justify-content: space-between;
+    padding: 8px 0 12px 0;
+}
+
+.payment-detail:not(:last-child) {
+    border-bottom: 1px solid #E5E5E5;
+}
+
+.payment-detail__title {
+    font-size: 15px;
+    line-height: 20px;
+    color: #000000;
+}
+
+.payment-detail__value {
+    font-size: 15px;
+    line-height: 20px;
+    color: #808080;
+}

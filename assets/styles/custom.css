@@ -1,0 +1,173 @@
+/* Common styles */
+unlimint-ui-form-container .unl-custom-container {
+  background-color: #ffffff;
+  display: flex;
+  align-items: center;
+  width: 100%;
+  height: 100%;
+  box-shadow: none;
+}
+
+unlimint-ui-form-container .unl-custom-body {
+  height: 100%;
+  display: flex;
+  flex-wrap: wrap;
+  align-content: center;
+  width: 328px;
+  padding: 0;
+}
+
+unlimint-ui-form-container .unl-custom-body form {
+  display: flex;
+  flex-wrap: wrap;
+  align-content: center;
+}
+
+unlimint-ui-form-container .unl-custom-footer {
+  background-color: #F2F2F2;
+  height: 92px;
+}
+
+unlimint-ui-form-container .unl-custom-footer svg + svg {
+  margin-left: 40px;
+}
+
+unlimint-ui-form-container .unl-custom-label-container {
+  margin-bottom: 24px;
+  width: 328px;
+}
+
+unlimint-ui-form-container .unl-custom-date-input {
+  width: 148px;
+  margin-right: auto;
+}
+
+unlimint-ui-form-container .unl-custom-cvv-input {
+  width: 148px;
+}
+
+unlimint-ui-form-container .unl-custom-label-control {
+  height: auto;
+  border: none;
+  padding: 0;
+}
+
+unlimint-ui-form-container .unl-custom-label-control input {
+  height: 44px;
+  border: 1px solid #D9D9D9;
+  border-radius: 4px;
+  box-sizing: border-box;
+  width: 100%;
+  padding: 12px;
+}
+
+unlimint-ui-form-container .unl-custom-label {
+  font-size: 14px;
+  line-height: 20px;
+  font-weight: 500;
+  color: #000000;
+  margin-bottom: 4px;
+}
+
+unlimint-ui-form-container .unl-custom-label-control.ng-invalid.ng-touched input {
+  border: 1px solid #FF3B30;
+}
+
+unlimint-ui-form-container .unl-custom-label-control.ng-invalid.ng-touched.ng-focused input {
+  border: 1px solid #D9D9D9;
+}
+
+unlimint-ui-form-container .unl-custom-right-slot {
+  top: 22px;
+  right: 12px;
+}
+
+unlimint-ui-form-container .unl-custom-error {
+  height: auto;
+  margin: 4px 0 0;
+  font-size: 11px;
+  line-height: 16px;
+  color: #808080;
+}
+
+unlimint-ui-form-container .unl-custom-button {
+  color: #000000;
+  background: #C9F73A;
+  border-radius: 4px;
+  height: 44px;
+  width: 336px;
+  margin-left: -4px;
+  margin-right: -4px;
+  font-size: 17px;
+  font-weight: 500;
+}
+
+unlimint-ui-form-container .unl-custom-button:hover {
+  color: #ffffff;
+  background: #000000;
+}
+
+/* Card form styles */
+unlimint-ui-card-form .unl-form .unl-custom-card-form-title {
+  font-weight: bold;
+  font-size: 24px;
+  line-height: 28px;
+  margin-bottom: 28px;
+  width: 100%;
+}
+
+unlimint-ui-card-form .unl-custom-card-form-submit {
+  margin-top: 24px;
+}
+
+/* Order styles */
+unlimint-ui-form-container .unl-custom-info-title {
+  width: 100%;
+  font-weight: bold;
+  font-size: 24px;
+  line-height: 28px;
+  color: #000000;
+}
+
+unlimint-ui-form-container .unl-custom-info-total {
+  width: 100%;
+  margin-top: 16px;
+  font-weight: 600;
+  font-size: 16px;
+  line-height: 20px;
+  color: #000000;
+}
+
+unlimint-ui-form-container .unl-custom-info-order {
+  margin-top: 12px;
+  margin-bottom: 32px;
+  width: 100%;
+  font-size: 14px;
+  line-height: 16px;
+  color: #737373;
+}
+
+/* Pay form styles */
+unlimint-ui-pay-form .unl-custom-checkbox-container {
+  margin-top: 4px;
+  margin-bottom: 36px;
+}
+
+unlimint-ui-pay-form .unl-custom-checkbox-container input+span::before {
+  border-radius: 4px;
+}
+
+unlimint-ui-pay-form .unl-custom-checkbox-container input:focus+span::before {
+  outline: none;
+}
+
+unlimint-ui-pay-form .unl-custom-checkbox-container input:checked+span::before {
+  background-image: url("data:image/svg+xml,%3Csvg width='18' height='13' viewBox='0 0 18 13' fill='none' xmlns='http://www.w3.org/2000/svg'%3E%3Cpath d='M17 1L6 12L1 7' stroke='%23ffffff' stroke-width='2' stroke-linejoin='round'/%3E%3C/svg%3E%0A");
+  background-color: #000000;
+  border: none;
+}
+
+/* Pay by saved card form styles */
+unlimint-ui-pay-token-form .unl-custom-pay-by-saved-card-input {
+  margin-bottom: 14px;
+}
